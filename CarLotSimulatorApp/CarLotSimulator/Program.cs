@@ -16,14 +16,14 @@ namespace CarLotSimulator
 
             //Now that the Car class is created we can instanciate 3 new cars
 
-            var customerCar = new car("Kia", "Optima", 2023, true, "Vroom", "Honk");
-            var customerCar1 = new car("Honda", "Civic", 2010, false, "Vroom", "Beep");
-            var customerCar2 = new car("Toyota", "Prius", 2012, true, "", "Honk");
+            var customerCar = new Car("Kia", "Optima", 2023, true, "Vroom", "Honk");
+            var customerCar1 = new Car("Honda", "Civic", 2010, false, "Vroom", "Beep");
+            var customerCar2 = new Car("Toyota", "Prius", 2012, true, "", "Honk");
             //Set the properties for each of the cars
             //Call each of the methods for each car
 
             customerCar.MakeEngineNoise(customerCar.EngineNoise);
-            customerCar.MakeEngineNoise(customerCar.HonkNoise)
+            customerCar.MakeEngineNoise(customerCar.HonkNoise);
 
             customerCar1.MakeEngineNoise(customerCar1.EngineNoise);
             customerCar1.MakeHonkVoice(customerCar1.HonkNoise);

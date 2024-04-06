@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CarLotSimulator
 {
-    public class car
+    public class Car
     {
         public string Make { get; set; }
 
@@ -30,7 +30,7 @@ namespace CarLotSimulator
             Console.WriteLine(honkVoice);
         }
 
-        public car(string make, string model, int year, bool isdriveable, string EngineNoise, string HonkNoise)
+        public Car(string make, string model, int year, bool isdriveable, string EngineNoise, string HonkNoise)
         {
             Make = make;
             Model = model;
